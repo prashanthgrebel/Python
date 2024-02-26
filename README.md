@@ -78,3 +78,64 @@
 - Managing EC2 instances, S3 buckets, and more.
 - Practice exercises and examples:
   - Example: Creating a aws script for deploying applications to remote servers.
+  - 
+
+
+# Lists
+
+```
+# Lists are mutual that we can change values
+nums = [10,17,56,89,11,20] # eliments/ Index values  [0,1,2,3,4,5,6]
+print(nums)
+
+#print specific eliment
+print (nums[5])
+
+#print some from specific eliment to end
+print ("print some from specific eliment to end")
+print (nums[3:])
+
+### print float string and intiger
+values = [10.5, 'prashanthGR', 100]
+print(values)
+
+# list of lists
+mil = [nums, values]
+print(mil)
+
+# Operates in List
+
+nums.append(1000) # apend value to list
+print (nums)
+
+nums.insert(3,105) # Inset value at 3 index / inbetween of list
+print (nums)
+
+nums.remove(1000) # remove value from list , value is 1000print (nums)
+print (nums)
+
+nums.pop(3) # remove value from list Using its Inedex value
+print(nums)
+
+nums.pop() # remove last value from the list
+print(nums)
+
+del nums[3:] # delete multiple valuse starting from 3rd Index
+print(nums)
+
+nums.extend ([2000,4000,500]) # append multiple values to the list
+print(nums)
+
+
+#List Inbuilt Fuctions
+
+print (nums.sort())  # sort valumes from list
+
+print (min(nums)) # find minimum value from list
+
+print (max(nums)) # find maximum value from list
+
+print (sum(nums)) # find sum of total from the list
+
+print (nums.sort())
+```
