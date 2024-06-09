@@ -81,30 +81,36 @@
   - 
 
 
-# Lists
+### Lists
 
+
+#### Lists are mutual that we can change values
 ```
-# Lists are mutual that we can change values
 nums = [10,17,56,89,11,20] # eliments/ Index values  [0,1,2,3,4,5,6]
 print(nums)
-
-#print specific eliment
+```
+#### print specific element
+```
 print (nums[5])
-
-#print some from specific eliment to end
+```
+#### print some from specific eliment to end
+```
 print ("print some from specific eliment to end")
 print (nums[3:])
-
-### print float string and intiger
+```
+#### print float string and intiger
+```
 values = [10.5, 'prashanthGR', 100]
 print(values)
-
-# list of lists
+```
+#### list of lists
+```
 mil = [nums, values]
 print(mil)
-
-# Operates in List
-
+```
+#### Operates in List
+   
+```
 nums.append(1000) # apend value to list
 print (nums)
 
@@ -125,9 +131,9 @@ print(nums)
 
 nums.extend ([2000,4000,500]) # append multiple values to the list
 print(nums)
+```
 
-
-#List Inbuilt Fuctions
+#### List Inbuilt Fuctions
 
 print (nums.sort())  # sort valumes from list
 
