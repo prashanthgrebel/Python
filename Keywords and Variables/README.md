@@ -115,7 +115,7 @@ def my_function():
 my_function()
 print(x)  # Output: local
 ```
-#### 
+#### Using the nonlocal Keyword
 ```
 def outer_function():
     x = "outer"
