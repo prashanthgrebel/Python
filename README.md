@@ -134,6 +134,7 @@ print(nums)
 ```
 
 #### List Inbuilt Fuctions
+```
 
 print (nums.sort())  # sort valumes from list
 
@@ -146,7 +147,7 @@ print (sum(nums)) # find sum of total from the list
 print (nums.sort())
 ```
 
-# Tupel And Set
+#### Tupel And Set
 ```
 # tuple is immutable and we cant chang the values 
 
@@ -155,12 +156,11 @@ tup = (10, 5 , 45, 87, 2)
 
 print(tup)
 
-print(tup[1]) # print value of 1st index 
-
-
-#Set is colletion of uniq elements and not sort 
-# set will not support Index value 
-
+print(tup[1]) # print value of 1st index
+```
+#### Set is colletion of uniq elements and not sort 
+##### set will not support Index value 
+```
 s = {10, 1, 22, 5, 7, 1, 22}
 print(s)
 
@@ -168,7 +168,7 @@ s.update({100}) # update values
 print(s)
 ```
 
-# Dictionary
+#### Dictionary
 ```
 
 data = {1:'prashanthGR', 2:'Potti', 3:'Rebel'}
