@@ -103,3 +103,30 @@ print(global_var)  # Output: I am global
 # Uncommenting the next line would raise an error because local_var is not accessible outside the function
 # print(local_var)  # NameError: name 'local_var' is not defined
 ```
+#### Using the global Keyword
+```
+x = "global"
+
+def my_function():
+    global x
+    x = "local"
+    print(x)  # Output: local
+
+my_function()
+print(x)  # Output: local
+```
+#### 
+```
+def outer_function():
+    x = "outer"
+
+    def inner_function():
+        nonlocal x
+        x = "inner"
+        print(x)  # Output: inner
+
+    inner_function()
+    print(x)  # Output: inner
+
+outer_function()
+```
