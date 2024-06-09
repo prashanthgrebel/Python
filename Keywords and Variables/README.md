@@ -86,3 +86,20 @@ print(x)  # Output: 10
 result = x + y
 print(result)  # Output: 13.14
 ```
+#### Global and Local Variables
+```
+# Global variable
+global_var = "I am global"
+
+def my_function():
+    # Local variable
+    local_var = "I am local"
+    print(local_var)  # Output: I am local
+    print(global_var)  # Output: I am global
+
+my_function()
+print(global_var)  # Output: I am global
+
+# Uncommenting the next line would raise an error because local_var is not accessible outside the function
+# print(local_var)  # NameError: name 'local_var' is not defined
+```
